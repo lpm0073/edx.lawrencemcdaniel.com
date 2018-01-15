@@ -1,0 +1,373 @@
+/* ---------------- General App Setting -----------------------------*/
+body {
+  background-color: #f1f1f1;
+  color: #464646;     /* Wordpress gray */
+}
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: orange;
+  font-family: 'Roboto Condensed';
+  font-weight: 600;
+  font-size: .75em;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+footer {
+  font-family:'Roboto';
+  font-size: smaller;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+footer a {
+  color: #407393;  /* Wordpress blue */
+}
+
+footer a:hover {
+  color: #407393;  /* Wordpress blue */
+  font-size: 1.025em;
+}
+
+.btn-primary {
+  background-color: #407393;  /* Wordpress blue */
+  border-color: #407393;  /* Wordpress blue */
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.blue-background {
+  background-color: rgba(64, 115, 147, .10);  /* Wordpress blue */
+  width: 100%;
+}
+
+.box-shadow:hover {
+  box-shadow: 0 2px 5px 1px #cfcfcf;
+  border: 1px solid #efefef;
+}
+
+
+
+/* ---------------- End - General App Setting -----------------------------*/
+
+/* Jumbotron / page header  */
+.home-jumbotron {
+  border-width: 5px;
+  border-radius: 12px;
+  border-color: rgba(64, 115, 147, 1);  /* Wordpress blue */
+  border-style: solid;
+}
+
+.jumbotron {
+  margin-top: 15px;
+  background-color: rgba(255,255,255,.5);
+}
+
+
+.relative-anchor {
+  position: relative;
+}
+
+.wordpress-logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.05;
+  overflow: hidden;
+}
+
+.heading {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 0px;
+}
+
+.centered {
+  position: relative;
+  left: -50%;
+  border: solid #f1f1f1 1px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,.85);
+}
+/* End - Jumbotron / page header  */
+
+/* Services section */
+.card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+/* Premium Services Section  */
+.premium-service {
+  min-height: 350px !important;
+}
+
+.premium-service-icon {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.premium-service-icon-centered {
+  position: relative;
+  left: -50%;
+}
+/* End - Premium Services Section  */
+
+/* Features Section  */
+.card {
+  min-height: 225px;
+}
+/* End - Features Section  */
+
+/* Plans Section  */
+.plans-column-left {
+}
+
+.plans-column-right {
+}
+
+.plans-title {
+  margin-top: -20px;
+  font-weight: 500;
+  color: #407393;  /* Wordpress blue */
+  font-family: 'Roboto Condensed';
+  font-size: 2.5em;
+}
+.plans-wordpress-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.plans-wordpress-logo img {
+  width: 250px;
+  margin-top: 50px;
+}
+
+.hosting-plan {
+  min-height: 500px !important;
+}
+.hosting-plan-logo-box {
+  background-color: #f9f9f9;
+}
+
+.hosting-plan-logo-opaque {
+  opacity: 0.25;
+}
+
+.hosting-plan-wordpress-logo {
+  width: 65%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.hosting-plan-aws-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35%;
+}
+
+.hosting-plan-aws-logo {
+  position: absolute;
+  top: 15%;
+  right: 15px;
+  width: 35%;
+  transform: rotate(45deg);
+}
+
+.hosting-plan-google-logo {
+  position: absolute;
+  top: 15%;
+  left: 15px;
+  width: 35%;
+  transform: rotate(-45deg);
+}
+
+.hosting-plan-card-text {
+  min-height: 100px;
+}
+
+/* End - Plans Section  */
+
+
+/* Contact Section  */
+.contact {
+  min-height: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-left {
+  background-image: url("../images/Lawrence3.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+}
+
+.contact-left2 {
+  background-image: url("../images/Lawrence4.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+}
+
+.contact-linkedin-profile {
+  margin: auto;
+}
+
+.contact-right {
+  background-color: white;
+}
+/* End - Contact Section  */
+
+
+/* ---------------- Voronoi Tessellation --------------- */
+
+.voronoi-tessellation {
+  min-height: 550px;
+}
+
+.links {
+  stroke: #407393;      /* Wordpress blue */
+  stroke-opacity: 0.2;
+}
+
+.polygons {
+  fill: none;
+  stroke: #cecece;
+  stroke-opacity: 0.25;
+}
+
+.polygons :first-child {
+  fill: rgba(255,165,0, 0.2);
+}
+
+.sites {
+  fill: rgba(0,0,0,0);
+  stroke: rgba(0,0,0,0);
+  stroke-opacity: 0;
+}
+
+.sites :first-child {
+  fill: rgba(0,0,0,0);
+}
+
+
+/* ------------------ Material design icons -----------------------*/
+/* Rules for sizing the icon. */
+.material-icons.md-1em { font-size: 1em; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-lg { font-size: 250px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons.md-blue {
+  color: #407393;  /* Wordpress blue */
+}
+
+
+.material-icons.md-blue-light {
+  color: rgba(64, 115, 147, .075);    /* Wordpress blue */
+}
+
+/*-------------------- RESPONSIVE DESIGN ------------------------------*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+/*@media (min-width: 768px) and (max-width: 991px) */
+@media (max-width: 991px) {
+  h1 {
+    font-weight: 500;
+  }
+
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: .50em;
+  }
+
+  .jumbotron {
+    background-color: #f1f1f1;
+    margin-top: 0;
+  }
+
+  .home-jumbotron {
+    border: none !important;
+  }
+
+  #voronoi-tessellation {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .box-shadow:hover {
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .heading {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin-bottom: 25px;
+  }
+
+  .contact-left {
+    min-height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
