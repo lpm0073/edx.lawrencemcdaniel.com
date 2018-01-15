@@ -81,11 +81,12 @@ footer a:hover {
   position: relative;
 }
 
-.wordpress-logo {
+.edx-logo {
   position: absolute;
   bottom: 0;
-  left: 0;
-  opacity: 0.05;
+  righty: 0;
+  opacity: 0.15;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -209,6 +210,10 @@ footer a:hover {
 
 /* End - Plans Section  */
 
+/* Portfolio */
+.portfolio-image {
+  width: 100%;
+}
 
 /* Contact Section  */
 .contact {
@@ -273,13 +278,16 @@ footer a:hover {
 
 
 /* ------------------ Material design icons -----------------------*/
+.material-icons {
+  margin-top: 15px;
+}
 /* Rules for sizing the icon. */
 .material-icons.md-1em { font-size: 1em; }
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
-.material-icons.md-lg { font-size: 250px; }
+.material-icons.md-lg { font-size: 200px; }
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
