@@ -364,6 +364,11 @@ footer a:hover {
     visibility: hidden;
     height: 0;
   }
+  
+  #rotating-voronoi {
+    visibility: hidden;
+    height: 0;
+  }
 
   .box-shadow:hover {
     box-shadow: none !important;
