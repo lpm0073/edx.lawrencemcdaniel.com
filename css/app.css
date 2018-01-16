@@ -91,6 +91,7 @@ footer a:hover {
 }
 
 .heading {
+  min-width: 75%;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -102,7 +103,7 @@ footer a:hover {
   left: -50%;
   border: solid #f1f1f1 1px;
   border-radius: 5px;
-  background-color: rgba(255,255,255,.85);
+  background-color: rgba(255,255,255,.95);
 }
 /* End - Jumbotron / page header  */
 
@@ -171,9 +172,6 @@ footer a:hover {
   background-color: #f9f9f9;
 }
 
-.hosting-plan-logo-opaque {
-  opacity: 0.25;
-}
 
 .hosting-plan-wordpress-logo {
   width: 65%;
@@ -244,6 +242,21 @@ footer a:hover {
 }
 /* End - Contact Section  */
 
+
+/*-------------------------- D3 Rotating Voronoi ----------------------------------*/
+#rotating-voronoi {
+  min-height: 550px;
+}
+
+
+#rotating-voronoi path {
+  fill: #fff;            /* NOTE:  fill color needs to match general d3-directive class background-color*/
+  stroke: #407393;      /* Wordpress blue */
+  stroke-width: 1px;
+}
+
+
+/*-------------------------- D3 Rotating Voronoi - END ----------------------------------*/
 
 /* ---------------- Voronoi Tessellation --------------- */
 
