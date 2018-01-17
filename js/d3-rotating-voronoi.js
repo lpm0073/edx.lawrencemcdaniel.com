@@ -1,5 +1,38 @@
 /*
 
+ Put something cool and different in the javascript console window.
+
+*/
+(function(url) {
+  // Create a new `Image` instance
+  var image = new Image();
+
+  image.onload = function() {
+    // Inside here we already have the dimensions of the loaded image
+    var style = [
+      // Hacky way of forcing image's viewport using `font-size` and `line-height`
+      'font-size: 1px;',
+      'line-height: ' + this.height + 'px;',
+
+      // Hacky way of forcing a middle/center anchor point for the image
+      'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
+
+      // Set image dimensions
+      'background-size: ' + this.width + 'px ' + this.height + 'px;',
+
+      // Set image URL
+      'background: url('+ url +');'
+     ].join(' ');
+
+     console.log('%c', style);
+  };
+
+  // Actually loads the image
+  image.src = url;
+})('https://edx.lawrencemcdaniel.com/images/Lawrence6.JPG');
+
+/*
+
   Rotating Voronoi. Original source code: https://bl.ocks.org/mbostock/4636377
   Credit: Mike Bostok https://bl.ocks.org/mbostock
 
@@ -11,7 +44,7 @@ var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-console.log("Custom HTML5 / CSS3 / JS by Lawrence McDaniel: https://lawrencemcdaniel.com | lpm0073@gmail.com");
+console.log("%cCustom "+"%cHTML5"+" %c/ "+"%cCSS3"+" %c/ "+"%cJS "+"%cby Lawrence McDaniel: https://lawrencemcdaniel.com | lpm0073@gmail.com", "color: black; background-color: #f1f1f1;","color: red; background-color: #f1f1f1;", "color: black; background-color: #f1f1f1;", "color: green; background-color: #f1f1f1;", "color: black; background-color: #f1f1f1;", "color: blue; background-color: #f1f1f1;", "color: black; background-color: #f1f1f1;");
 var start = Date.now(),
     points = [];
 
