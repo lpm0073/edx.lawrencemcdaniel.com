@@ -121,6 +121,10 @@ footer a:hover {
   min-height: 350px !important;
 }
 
+.premium-service ul {
+  margin-left: 15px;
+}
+
 .premium-service-icon {
   position: absolute;
   top: 30%;
@@ -131,6 +135,8 @@ footer a:hover {
   position: relative;
   left: -50%;
 }
+
+
 /* End - Premium Services Section  */
 
 /* Features Section  */
