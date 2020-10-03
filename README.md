@@ -1,1 +1,1 @@
-# Open edX Landing Page
+# Open edX® Landing Page
